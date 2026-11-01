@@ -8,14 +8,25 @@ __pycache__/
 # Raw EEG recordings and downloaded archive
 data/raw/
 *.gdf
+*.edf
+*.npy
+*.npz
+*.mat
 BCICIV_2a_gdf.zip
 /BCICIV_2a_gdf/
 
-# Processed data and trained model outputs
-data/processed/
+# Processed data
+data/processed/*
+!data/processed/validation_report.csv
+!data/processed/subject_splits.csv
+!data/processed/preprocessing_comparison.csv
+
+# Trained model outputs
 models/*.keras
 models/*.h5
+models/*.pkl
 results/
 
 # macOS metadata
 .DS_Store
+

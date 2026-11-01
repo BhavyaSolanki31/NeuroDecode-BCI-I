@@ -1,0 +1,12 @@
+Metric,Value
+Expected subjects,109
+Valid subjects,109
+Missing subjects,0
+Invalid subjects,0
+Total epochs,9795
+left_hand,2470
+right_hand,2428
+both_hands,2452
+both_feet,2445
+Missing subject IDs,
+Invalid subject IDs,
